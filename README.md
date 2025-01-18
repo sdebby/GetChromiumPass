@@ -1,4 +1,4 @@
-# Browser Password Extractor
+# BrowserSecretSeeker - Browser Password Extractor
 
 ## Overview
 A Python script for extracting saved passwords from Chromium-based browsers (Chrome, Edge, Opera) on Windows systems. The tool can display passwords, or save them to a timestamped file.
@@ -16,7 +16,7 @@ Can be used in rubber ducky operation script.
 
 ## Requirements
 ```bash
-pip install pycryptodome pywin32
+pip install pycryptodome pywin32 sqlite3
 ```
 
 # Behind the scenes:
@@ -33,8 +33,6 @@ The tool performs these key operations:
 python GetPass.py
 python GetPass.py -s
 ```
-
-## TODO
 
 > [!CAUTION]
 > This tool is for educational purposes and personal password recovery only. Always comply with applicable laws and regulations.
